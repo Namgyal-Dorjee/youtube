@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="display:grid;
+        grid-template-columns: 100px 100px 200px;
+        ">
+            <div style="background-color: lightblue;">div-1</div>
+            <div style="background-color:lightpink;">div-2 and this is extra letter</div>
+            <div style="background-color: red;"> div no 3</div>
+        </div>
+        
+        <div style="display:grid;
+        grid-template-columns: 100px 100px; margin-top: 30px;
+        ">
+            <div style="background-color: lightblue;">div-1</div>
+            <div style="background-color:lightpink;">div-2 and this is extra letter</div>
+        </div>
+
+        <div style="display:grid; margin-top: 30px;
+        grid-template-columns: 100px 1fr;
+        ">
+            <div style="background-color: lightblue;">div-1</div>
+            <div style="background-color:lightpink;">div-2 and 1fr</div>
+            
+        </div>
+        
+
+        <div style="display:grid; margin-top: 30px;
+        grid-template-columns: 100px 1fr 2fr;
+        ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color:lightpink;">1fr</div>
+            <div style="background-color: green;">2fr</div>
+        </div>
+        
+
+        <div style="display:grid; margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr; column-gap: 20px; row-gap: 40px;
+        ">
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color:lightpink; height: 200px;">1fr</div>
+            <div style="background-color: green; height: 200px;">1fr</div>
+
+            <div style="background-color: rgb(240, 72, 190); height: 200px;">1fr</div>
+            <div style="background-color:rgb(30, 112, 234); height: 200px;">1fr</div>
+            <div style="background-color: rgb(207, 240, 20); height: 200px;">1fr</div>
+        </div>
+
+    </body>
+</html>
